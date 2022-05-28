@@ -10,8 +10,8 @@ Uses Node.js [Worker Threads](https://nodejs.org/api/worker_threads.html) for op
 ## Install
 
 ```
-$ yarn global add https://github.com/mrmikeo/sxp-wallet-mass-generator
-# or npm i -g https://github.com/mrmikeo/sxp-wallet-mass-generator
+$ yarn global add sxp-wallet-mass-generator
+# or npm i -g sxp-wallet-mass-generator
 ```
 
 ## Usage
@@ -55,8 +55,8 @@ ___
 ### Install
 
 ```
-$ yarn add https://github.com/mrmikeo/sxp-wallet-mass-generator
-# or npm i https://github.com/mrmikeo/sxp-wallet-mass-generator
+$ yarn add sxp-wallet-mass-generator
+# or npm i sxp-wallet-mass-generator
 ```
 
 ### `generateWallets`
