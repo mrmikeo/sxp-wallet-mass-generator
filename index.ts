@@ -1,6 +1,6 @@
 import fs from 'fs'
 import { spawn, Worker, Pool } from 'threads'
-import { Managers } from '@arkecosystem/crypto'
+import { Managers } from '@solar-network/crypto'
 import cliProgress from 'cli-progress'
 
 import type { WorkerMethods } from './worker'
@@ -24,7 +24,7 @@ export async function generateWallets({ amount = 100, network = 'devnet' }: Gene
 }
 
 export async function generateWalletsFs({
-  file = '_arkWallets.txt',
+  file = '_sxpWallets.txt',
   amount = 100,
   network = 'devnet',
   logs = true,
