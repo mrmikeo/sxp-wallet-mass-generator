@@ -1,12 +1,12 @@
 import { expose } from 'threads/worker'
 
-import { Identities, Managers } from '@arkecosystem/crypto'
+import { Identities, Managers } from '@solar-network/crypto'
 import { generateMnemonic } from 'bip39'
 import { createHash, randomBytes } from 'crypto'
 import * as MoreEntropy from 'promised-entropy'
 
 import type { Wallet } from './types'
-import type { NetworkName } from '@arkecosystem/crypto/dist/types'
+import type { NetworkName } from '@solar-network/crypto/dist/types'
 
 async function genWallet(network: NetworkName): Promise<Wallet> {
   Managers.configManager.setFromPreset(network)
