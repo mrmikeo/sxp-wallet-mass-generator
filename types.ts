@@ -1,4 +1,4 @@
-import type { NetworkName } from '@arkecosystem/crypto/dist/types'
+import type { NetworkName } from '@solar-network/crypto/dist/types'
 
 export interface Wallet {
   address: string
