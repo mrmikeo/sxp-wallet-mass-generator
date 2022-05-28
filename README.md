@@ -43,10 +43,12 @@ $ sxp-wallet-mass-generator --help
 Generated wallets will be appended to your output file with the following format:
 
 ```
-AazdtKbM6dwBPmRpdYySE4GGUyGhCpKmCM;topic crush heart chase return breeze boil laugh silly antenna hen width
-AH3tAPYZyYeLFb6nEcGyY8xKY2WmfQqv2W;forest pepper sauce flat flame object basic odor wall dutch mail mosquito
-AM3DCuCdZtLEsC9KFDqU7Dhme7Tce7D6mF;clerk rookie direct saddle mesh eye confirm have silly doll enact profit
-ASfKW3gsjF3FMyXgyp3WK77f2k6rdCsNKZ;fence banner dirt uniform dawn fan ribbon ill person banana ridge stone
+SVSqgf9DXMtBFJtpBsktF7Mo8B4vdiSds6:depth fox public forward insect sphere ignore what quit afraid that armor
+SWSSducreLcuPcwR9UayHauj8pazFp4DMn:army movie panel tonight disorder stumble travel ladder chaos grow tackle web
+STK2CfnpzxDUvgg92KP1mG4ScvcAmFrgrs:bottom arrow permit soft crane effort please under left artist glove battle
+SaCmgrMkRCdzacYNtMFK2TQqyQPD2ownba:flight spirit arena trust gold grab father taste else lemon kiss mind
+ST2PXPK8Q3YdaGcUGCxSn2x2jZs8VKewan:winner total copper side expose upset must ignore fiscal collect member limb
+SkY5uvnVTb8jfkPpLcitYPDdw4eARVBpDr:solution mind execute treat rude crumble usage fever chaos ostrich dilemma man
 ```
 
 ___
