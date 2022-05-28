@@ -12,20 +12,20 @@ const cli = meow(
       $ ark-wallet-mass-generator
     
     Options
-      --file -f         Output file [Default: "_arkWallets.txt"]
+      --file -f         Output file [Default: "_sxpWallets.txt"]
       --amount -a       Amount of wallets to generate [Default: 100]
       --network -n      Blockchain network [Default: "devnet"]
       --no-logs         Hide all logging output
       --show-wallets    Print wallets to the terminal instead of the progress bar [Default: false]
 
     Examples
-      $ ark-wallet-mass-generator
-      $ ark-wallet-mass-generator --network="mainnet"
-      $ ark-wallet-mass-generator --file="_arkWallets.txt" --amount 500000
-      $ ark-wallet-mass-generator --amount 500 --no-logs --network="testnet"
-      $ ark-wallet-mass-generator --show-wallets
+      $ sxp-wallet-mass-generator
+      $ sxp-wallet-mass-generator --network="mainnet"
+      $ sxp-wallet-mass-generator --file="_sxpWallets.txt" --amount 500000
+      $ sxp-wallet-mass-generator --amount 500 --no-logs --network="testnet"
+      $ sxp-wallet-mass-generator --show-wallets
 
-    https://github.com/rigwild/ark-wallet-mass-generator
+    https://github.com/mrmikeo/sxp-wallet-mass-generator
 `,
   {
     flags: {
