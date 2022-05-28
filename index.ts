@@ -6,7 +6,7 @@ import cliProgress from 'cli-progress'
 import type { WorkerMethods } from './worker'
 import type { GenerationOptions, Wallet, GenerationOptionsFs } from './types'
 
-export async function generateWallets({ amount = 100, network = 'devnet' }: GenerationOptions = {}) {
+export async function generateWallets({ amount = 100, network = 'testnet' }: GenerationOptions = {}) {
   Managers.configManager.setFromPreset(network)
   Managers.configManager.setHeight(999999999)
 
@@ -26,7 +26,7 @@ export async function generateWallets({ amount = 100, network = 'devnet' }: Gene
 export async function generateWalletsFs({
   file = '_sxpWallets.txt',
   amount = 100,
-  network = 'devnet',
+  network = 'testnet',
   logs = true,
   showWallets = false
 }: GenerationOptionsFs = {}) {
