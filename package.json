@@ -35,7 +35,6 @@
     "@solar-network/crypto": "^3.2.1",
     "bip39": "^3.0.2",
     "cli-progress": "^3.8.2",
-    "crypto": "^1.0.1",
     "meow": "^6.1.0",
     "promised-entropy": "^0.1.0",
     "threads": "^1.4.1",
